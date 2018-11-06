@@ -1,0 +1,20 @@
+{
+  "name": "at-command-serial",
+  "version": "1.0.0",
+  "description": "使用serialport向4g模块发送AT指令",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "ATCOMMAND",
+    "AT",
+    "serialport",
+    "4G"
+  ],
+  "dependencies": {
+    "serialport": "*"
+  },
+  "author": "",
+  "license": "ISC"
+}
