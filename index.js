@@ -34,7 +34,7 @@ exports.open = function(ttyfile = '/dev/ttyUSB3', option = { }) {
 
 //AT+QCOPS=7,1
 //ATI
-exports.execute = async function(cmd) {
+exports.execute = function(cmd) {
   if(pendingTask) return Promise.reject(new Error('already pending'));
   
   return new Promise((resolve, reject) => {
